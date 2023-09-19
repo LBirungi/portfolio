@@ -1,0 +1,29 @@
+body {
+    background-color:#d5def5 ;
+    font-family: 'Poppins', sans-serif;
+}/* element body selected,incase Poppins does not exist use sans-serif */
+/*  CSS for styling Nav bar */
+header {
+    background-color:#6643b5;
+    height: 50px;
+    width: 90vw;
+    margin: auto;
+    border-radius: 75px;
+  }
+  /* being more specific selecting ul */
+  header > nav > ul {
+    display: flex;/* flexbox aligns/arranges and displays horizontally by default instead of vertical */
+    justify-content: space-evenly;
+    padding-top: 12px;
+    list-style-type: none;/* remove default dots on list items in nav */
+  }
+  header > nav > ul > li > a {
+    color: #d5def5;
+    text-decoration: none;/* by default the hypelink is blue, this is remove  */
+    font-size: 16px;
+  }
+  header > nav > ul > li > a:hover {
+    color: #dfd3c3;
+    border-bottom: 2px solid #430f58;
+  }
+  

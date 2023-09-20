@@ -26,4 +26,13 @@ header {
     color: #dfd3c3;
     border-bottom: 2px solid #430f58;
   }
-  
+  .cards{
+    display: flex;
+  }
+.contacticons{
+  display:flexbox;
+  justify-content: stretch;
+  list-style-type: none;
+}
+  /* make images responsive */
+  /* requires the navbar to remain fixed at the top of the page. */

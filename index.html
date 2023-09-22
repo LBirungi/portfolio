@@ -24,14 +24,14 @@
                     <li><a href="#welcome">Home</a></li><!-- takes you back to welcome page -->
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contacticons">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <div class="about">
             <div class="connect">
                 <h1>Hi there! I'm Lillian Birungi</h1>
-                <p>I’m a full-stack Developer with a Bachelor's degree in Electronics and Electrical Engineering, I
+                <p id="paragraph1">I’m a full-stack Developer with a Bachelor's degree in Electronics and Electrical Engineering, I
                     spend
                     the majority of my free time refining my skills and grasping new technologies.
                     I am driven by a passion for creating a positive impact and making a difference to others.
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <div class="pct">
-                <img src="image/PortraitLB.jpg" alt="profile imgage" class="profileimage" />
+                <img src="./image/PortraitLB-removebg-preview.png" alt="profile imgage" class="profileimage" />
                 <!-- The width was put on picture not to span the whole page-->
             </div>
         </div>
@@ -65,29 +65,29 @@
 
         </div>
         <div>
-            <h1>My Recent Projects</h1>
+            <h1 class="recent-Projects">My Recent Projects</h1>
         </div>
-
         <div class="cards"><!-- parent to make style apply to them, then flexbox can be on the parent -->
             <div class="project-tile">
-                <img src="" alt="project 1 screenshot" width="0.5" height="0.5" />
-                <h3>project title</h3>
-                <p>description</p>
-                <a href="/project1.html">Read More</a>
-            </div><!-- they can all have the same class -->
-            <div class="project-tile">card two
-                <img id="project-img" src="image/Project 2.jpg" alt="project 2 screenshot">
-                <h3>project title</h3>
-                <p>description</p>
-                <a href="/project2.html">Read More</a>
+                <h4>project one</h4>
+                <img id="project-img"src="./image/blog.jpg" alt="blog screenshot"/>
+                <h3>Blog project</h3>
+                <p>This a self-introductory blog post on Medium, about myself and I choose to become a software developer.</p>
+                <a href="/project1.html"target="_blank">Read More</a>
             </div>
             <div class="project-tile">
-
-                card three
-                <img id="project-img" src="image/Project_2-removebg-preview.png" alt="project 3 screenshot">
+                <h4>project two</h4><!-- they can all have the same class -->
+                <img id="project-img" src="./image/webprjct.jpg"alt="webprofile screenshot"/>
+                <h3>Portfolio website</h3>
+                <p> This a personal portfolio website about me,what i do and how to contact me.</p>
+                <a href="/index.html"target="_blank">Read More</a>
+            </div>
+            <div class="project-tile">
+                <h4>project three</h4>
+                <img id="project-img" src="image/Project_2-removebg-preview.png" alt="linksmediaproject 3 screenshot">
                 <h3>project title</h3>
-                <p>description</p>
-                <a href="/project3.html">Read More</a>
+                <p>project is about using html multimedia elements to display images,audio,videos&iframes</p>
+                <a href="/project3.html"target="_blank">Read More</a>
             </div>
         </div>
         <!-- <h2>Lately</h2>
@@ -105,5 +105,5 @@
         </footer>
     </section>
 </body>
-
+<!-- width="0.5" height="0.5"  -->
 </html>
